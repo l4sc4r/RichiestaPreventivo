@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_importo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="it.bancaprivataleasing.richiestapreventivo.ImportoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0" >
+
+    <TextView
+        style="@style/header"
+        android:layout_width="wrap_content"
+        android:layout_weight="0"
+        android:layout_height="wrap_content"
+        android:paddingRight="24dp"
+        android:text="@string/amount"/>
+
+    <EditText
+        android:id="@+id/amount_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLength="19"
+        android:text=""
+        android:inputType="numberDecimal"
+        android:textAlignment="textEnd"
+        android:imeOptions="actionDone"
+        android:gravity="end"
+        android:digits="0123456789.,€"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0" >
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:paddingRight="24dp"
+            android:text="@string/vat_included"/>
+
+        <Switch
+            android:id="@+id/vat_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_weight="0"
+            android:layout_height="wrap_content"
+            android:paddingRight="24dp"
+            android:text="@string/interest_rate"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest_rate_fixed"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest_rate_variable"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/button"
+            android:layout_alignParentLeft="true"
+            android:onClick="back"
+            android:text="@string/back"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/button"
+            android:layout_alignParentRight="true"
+            android:text="@string/next"
+            android:onClick="next"/>
+    </RelativeLayout>
+</LinearLayout>

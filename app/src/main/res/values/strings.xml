@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quotation request</string>
+    <string name="cliente_activity">Cliente</string>
+    <string name="importo_activity">Importo e tasso</string>
+    <string name="anticipo_activity">Anticipo</string>
+    <string name="riscatto_activity">Riscatto</string>
+    <string name="durata_activity">Durata</string>
+    <string name="assicurazione_activity">Assicurazione</string>
+    <string name="customer_name">Customer name</string>
+    <string name="vat_number">VAT number</string>
+    <string name="vat_number_hint">VAT number</string>
+    <string name="description">A short description for the quotation</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="amount">Amount</string>
+    <string name="vat_included">VAT included</string>
+    <string name="interest_rate">Interest rate</string>
+    <string name="interest_rate_fixed">Fixed</string>
+    <string name="interest_rate_variable">Variable</string>
+
+    <string name="customer_name_needed">Customer name needed to continue.</string>
+    <string name="invalid_vat_number">Invalid VAT number.</string>
+    <string name="description_needed">Description needed to continue.</string>
+</resources>

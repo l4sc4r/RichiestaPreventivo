@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Richiesta di preventivo</string>
+    <string name="amount">Importo</string>
+    <string name="anticipo_activity">Anticipo</string>
+    <string name="assicurazione_activity">Assicurazione</string>
+    <string name="back">Indietro</string>
+    <string name="cliente_activity">Cliente</string>
+    <string name="customer_name">Cliente o descrizione</string>
+    <string name="customer_name_needed">E\' necessario indicare il cliente per proseguire.</string>
+    <string name="description">Una breve descrizione dell\'oggetto del preventivo</string>
+    <string name="description_needed">E\' necessario indicare una descrizione per proseguire.</string>
+    <string name="durata_activity">Durata</string>
+    <string name="importo_activity">Importo e tasso</string>
+    <string name="interest_rate">Tipo tasso</string>
+    <string name="interest_rate_fixed">Fisso</string>
+    <string name="interest_rate_variable">Variabile</string>
+    <string name="invalid_vat_number">Codice fiscale non valido</string>
+    <string name="next">Avanti</string>
+    <string name="riscatto_activity">Riscatto</string>
+    <string name="vat_included">IVA inclusa</string>
+    <string name="vat_number">Codice fiscale</string>
+    <string name="vat_number_hint">Codice fiscale o partita IVA</string>
+</resources>
